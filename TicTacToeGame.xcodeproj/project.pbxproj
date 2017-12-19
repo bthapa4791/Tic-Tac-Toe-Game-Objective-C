@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68FE1BA81FE0A63E00659E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BA71FE0A63E00659E1D /* AppDelegate.m */; };
+		68FE1BB01FE0A63E00659E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FE1BAF1FE0A63E00659E1D /* Assets.xcassets */; };
+		68FE1BB31FE0A63E00659E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FE1BB11FE0A63E00659E1D /* LaunchScreen.storyboard */; };
+		68FE1BB61FE0A63E00659E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BB51FE0A63E00659E1D /* main.m */; };
+		68FE1BBF1FE0A95700659E1D /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BBE1FE0A95700659E1D /* GameController.m */; };
+		68FE1BC31FE0AA2E00659E1D /* GameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BC21FE0AA2E00659E1D /* GameBoard.m */; };
+		68FE1BC61FE0AA9200659E1D /* AppButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BC51FE0AA9200659E1D /* AppButton.m */; };
+		68FE1BD81FE0EC4D00659E1D /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BD71FE0EC4D00659E1D /* GameModel.m */; };
+		68FE1BDB1FE1CFE500659E1D /* AppUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BDA1FE1CFE500659E1D /* AppUILabel.m */; };
+		68FE1BDE1FE1D73D00659E1D /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BDD1FE1D73D00659E1D /* UIColor+AppColors.m */; };
+		68FE1BE11FE1DBD300659E1D /* AppImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BE01FE1DBD300659E1D /* AppImageView.m */; };
+		68FE1BEC1FE2C98500659E1D /* GameStatusCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1BEB1FE2C98500659E1D /* GameStatusCalculation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68FE1BA31FE0A63E00659E1D /* TicTacToeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FE1BA61FE0A63E00659E1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68FE1BA71FE0A63E00659E1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68FE1BAF1FE0A63E00659E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68FE1BB21FE0A63E00659E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68FE1BB41FE0A63E00659E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FE1BB51FE0A63E00659E1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68FE1BBD1FE0A95700659E1D /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		68FE1BBE1FE0A95700659E1D /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		68FE1BC11FE0AA2E00659E1D /* GameBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		68FE1BC21FE0AA2E00659E1D /* GameBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBoard.m; sourceTree = "<group>"; };
+		68FE1BC41FE0AA9200659E1D /* AppButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppButton.h; sourceTree = "<group>"; };
+		68FE1BC51FE0AA9200659E1D /* AppButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppButton.m; sourceTree = "<group>"; };
+		68FE1BD01FE0D4E000659E1D /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		68FE1BD61FE0EC4D00659E1D /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		68FE1BD71FE0EC4D00659E1D /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		68FE1BD91FE1CFE500659E1D /* AppUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUILabel.h; sourceTree = "<group>"; };
+		68FE1BDA1FE1CFE500659E1D /* AppUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUILabel.m; sourceTree = "<group>"; };
+		68FE1BDC1FE1D73D00659E1D /* UIColor+AppColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColors.h"; sourceTree = "<group>"; };
+		68FE1BDD1FE1D73D00659E1D /* UIColor+AppColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColors.m"; sourceTree = "<group>"; };
+		68FE1BDF1FE1DBD300659E1D /* AppImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppImageView.h; sourceTree = "<group>"; };
+		68FE1BE01FE1DBD300659E1D /* AppImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppImageView.m; sourceTree = "<group>"; };
+		68FE1BEA1FE2C98500659E1D /* GameStatusCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStatusCalculation.h; sourceTree = "<group>"; };
+		68FE1BEB1FE2C98500659E1D /* GameStatusCalculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameStatusCalculation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FE1BA01FE0A63E00659E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68FE1B9A1FE0A63E00659E1D = {
+			isa = PBXGroup;
+			children = (
+				68FE1BA51FE0A63E00659E1D /* TicTacToeGame */,
+				68FE1BA41FE0A63E00659E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68FE1BA41FE0A63E00659E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BA31FE0A63E00659E1D /* TicTacToeGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68FE1BA51FE0A63E00659E1D /* TicTacToeGame */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BD41FE0E8F600659E1D /* Model */,
+				68FE1BC81FE0BAB000659E1D /* Helpers */,
+				68FE1BC01FE0AA1D00659E1D /* View */,
+				68FE1BBC1FE0A93300659E1D /* Controller */,
+				68FE1BA61FE0A63E00659E1D /* AppDelegate.h */,
+				68FE1BA71FE0A63E00659E1D /* AppDelegate.m */,
+				68FE1BAF1FE0A63E00659E1D /* Assets.xcassets */,
+				68FE1BB11FE0A63E00659E1D /* LaunchScreen.storyboard */,
+				68FE1BB41FE0A63E00659E1D /* Info.plist */,
+				68FE1BB51FE0A63E00659E1D /* main.m */,
+			);
+			path = TicTacToeGame;
+			sourceTree = "<group>";
+		};
+		68FE1BBC1FE0A93300659E1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BBD1FE0A95700659E1D /* GameController.h */,
+				68FE1BBE1FE0A95700659E1D /* GameController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68FE1BC01FE0AA1D00659E1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BC11FE0AA2E00659E1D /* GameBoard.h */,
+				68FE1BC21FE0AA2E00659E1D /* GameBoard.m */,
+				68FE1BC41FE0AA9200659E1D /* AppButton.h */,
+				68FE1BC51FE0AA9200659E1D /* AppButton.m */,
+				68FE1BD91FE1CFE500659E1D /* AppUILabel.h */,
+				68FE1BDA1FE1CFE500659E1D /* AppUILabel.m */,
+				68FE1BDF1FE1DBD300659E1D /* AppImageView.h */,
+				68FE1BE01FE1DBD300659E1D /* AppImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68FE1BC81FE0BAB000659E1D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BD01FE0D4E000659E1D /* AppMacros.h */,
+				68FE1BDC1FE1D73D00659E1D /* UIColor+AppColors.h */,
+				68FE1BDD1FE1D73D00659E1D /* UIColor+AppColors.m */,
+				68FE1BEA1FE2C98500659E1D /* GameStatusCalculation.h */,
+				68FE1BEB1FE2C98500659E1D /* GameStatusCalculation.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		68FE1BD41FE0E8F600659E1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68FE1BD61FE0EC4D00659E1D /* GameModel.h */,
+				68FE1BD71FE0EC4D00659E1D /* GameModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68FE1BA21FE0A63E00659E1D /* TicTacToeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FE1BB91FE0A63E00659E1D /* Build configuration list for PBXNativeTarget "TicTacToeGame" */;
+			buildPhases = (
+				68FE1B9F1FE0A63E00659E1D /* Sources */,
+				68FE1BA01FE0A63E00659E1D /* Frameworks */,
+				68FE1BA11FE0A63E00659E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToeGame;
+			productName = TicTacToeGame;
+			productReference = 68FE1BA31FE0A63E00659E1D /* TicTacToeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FE1B9B1FE0A63E00659E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Bimal Thapa";
+				TargetAttributes = {
+					68FE1BA21FE0A63E00659E1D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68FE1B9E1FE0A63E00659E1D /* Build configuration list for PBXProject "TicTacToeGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68FE1B9A1FE0A63E00659E1D;
+			productRefGroup = 68FE1BA41FE0A63E00659E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68FE1BA21FE0A63E00659E1D /* TicTacToeGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68FE1BA11FE0A63E00659E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FE1BB31FE0A63E00659E1D /* LaunchScreen.storyboard in Resources */,
+				68FE1BB01FE0A63E00659E1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FE1B9F1FE0A63E00659E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FE1BC31FE0AA2E00659E1D /* GameBoard.m in Sources */,
+				68FE1BE11FE1DBD300659E1D /* AppImageView.m in Sources */,
+				68FE1BDE1FE1D73D00659E1D /* UIColor+AppColors.m in Sources */,
+				68FE1BD81FE0EC4D00659E1D /* GameModel.m in Sources */,
+				68FE1BDB1FE1CFE500659E1D /* AppUILabel.m in Sources */,
+				68FE1BBF1FE0A95700659E1D /* GameController.m in Sources */,
+				68FE1BC61FE0AA9200659E1D /* AppButton.m in Sources */,
+				68FE1BB61FE0A63E00659E1D /* main.m in Sources */,
+				68FE1BA81FE0A63E00659E1D /* AppDelegate.m in Sources */,
+				68FE1BEC1FE2C98500659E1D /* GameStatusCalculation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68FE1BB11FE0A63E00659E1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FE1BB21FE0A63E00659E1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68FE1BB71FE0A63E00659E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68FE1BB81FE0A63E00659E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68FE1BBA1FE0A63E00659E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TicTacToeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bimalxn.TicTacToeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68FE1BBB1FE0A63E00659E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TicTacToeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bimalxn.TicTacToeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FE1B9E1FE0A63E00659E1D /* Build configuration list for PBXProject "TicTacToeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FE1BB71FE0A63E00659E1D /* Debug */,
+				68FE1BB81FE0A63E00659E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FE1BB91FE0A63E00659E1D /* Build configuration list for PBXNativeTarget "TicTacToeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FE1BBA1FE0A63E00659E1D /* Debug */,
+				68FE1BBB1FE0A63E00659E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FE1B9B1FE0A63E00659E1D /* Project object */;
+}
